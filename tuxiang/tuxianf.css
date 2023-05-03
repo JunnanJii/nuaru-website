@@ -1,12 +1,20 @@
 html {
     width: 1100px;
+    background-color: rgba(0, 0, 0, 0.07);
 }
-img {
+img.ab {
     position: absolute;
-    height: 99%;
+    height: 100%;
     left: 300px;
-
+    /* left: 90px; */
+    top: 0px;
 }
+img.ac{
+    height: 100%;
+    width: 100%;
+}
+
+
 #yuan1 {
             width:40px;
             height: 40px;
@@ -55,9 +63,19 @@ background-color: rgb(255, 230, 0);
     left: 0px;
     width: 0;
     height: 0;
-    border-top: 100px solid rgb(47, 47, 193);
+    /* border-top: 100px solid rgb(47, 47, 193); */
+    border-top: 100px solid black;
     border-right: 100px solid transparent;
     position: absolute;
+    z-index: 0;
 }
+p{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: rgba(255, 255, 255, 0.686);
+    z-index: 2;
+    font-family: icomoon;
+  }
 
   

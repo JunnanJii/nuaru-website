@@ -55,9 +55,19 @@ background-color: rgb(255, 230, 0);
     left: 0px;
     width: 0;
     height: 0;
-    border-top: 100px solid rgb(47, 47, 193);
+    /* border-top: 100px solid rgb(47, 47, 193); */
+    border-top: 100px solid black;
     border-right: 100px solid transparent;
     position: absolute;
+    z-index: 0;
+  }
+  p{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: rgba(255, 255, 255, 0.686);
+    z-index: 2;
+    font-family: icomoon;
   }
 
   
