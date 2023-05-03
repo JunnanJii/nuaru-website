@@ -1,0 +1,77 @@
+h1 {
+    font-family: icomoon;
+    top: 20px;
+    left: 300px;
+    position: absolute;
+    font-size: 66pt;
+    z-index: 3;
+    float: right;	
+    /* color: rgb(47, 47, 193); */
+    /* color: white; */
+    color: rgb(255, 230, 0);
+}
+h1:hover {
+    border: 5px solid black;
+    background-color:rgb(47, 47, 193) ;
+
+}
+html {
+    /* background-color: rgba(163, 163, 163, 0.521); */
+    /* background-color: rgb(47, 47, 193); */
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+img {
+    height: 500px;
+    position: sticky;
+    top: 0px;
+    left: 350px;
+}
+img:hover {
+    opacity:0.3;
+}
+a{
+    bottom: 10px;
+    left: 10px;
+    position: sticky;
+    color: rgb(47, 47, 193);
+    font-family: icomoon;
+    border: 2px solid rgb(47, 47, 193);
+    /* background-color:rgb(47, 47, 193) ; */
+    font-size: 24pt;
+}
+a:hover {
+    background-color:rgb(255, 230, 0) ;
+}
+h3 {
+    /* position: absolute; */
+    font-family: icomoon;
+    font-size: 12pt;
+    top: 5px;
+    /* color: rgb(255, 230, 0); */
+    /* color: white; */
+    color: black;
+}
+h4 {
+    font-family: icomoon;
+    font-size: 12pt;
+    top: 120px;
+    position: absolute;
+    color: rgb(255, 230, 0);
+}
+h5 {
+    font-family: icomoon;
+    font-size: 12pt;
+    top: 280px;
+    position: absolute;
+    color: rgb(255, 230, 0);
+}
+h6 {
+    font-family: icomoon;
+    font-size: 12pt;
+    top: 350px;
+    position: absolute;
+    color: rgb(255, 230, 0);
+}
+
