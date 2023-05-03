@@ -1,5 +1,16 @@
 h5 {
+    position: absolute;
     font-family: icomoon;
+    font-size: 12pt;
+    top:0px;
+    left: 10px;
+}
+h6 {
+    position: absolute;
+    font-family: icomoon;
+    font-size: 12pt;
+    top: 0px;
+    right: 10px;
 }
 img {
     position: absolute;
