@@ -55,19 +55,40 @@ background-color: rgb(255, 230, 0);
     left: 0px;
     width: 0;
     height: 0;
-    /* border-top: 100px solid rgb(47, 47, 193); */
-    border-top: 100px solid black;
+    border-top: 100px solid rgb(47, 47, 193);
+    /* border-top: 100px solid black; */
     border-right: 100px solid transparent;
     position: absolute;
     z-index: 0;
   }
-  p{
+  #triangle-topleft:hover {
+  border-top: 100px solid rgb(255, 230, 0);
+
+    border-right: 100px solid transparent;
+  }
+  p.ii{
     position: absolute;
     top: 0px;
     left: 0px;
     color: rgba(255, 255, 255, 0.686);
     z-index: 2;
     font-family: icomoon;
+  }
+  #youxiajiao {
+    bottom: 0px;
+    right: 0px;
+    width: 0;
+    height: 0;
+    /* border-top: 100px solid rgb(47, 47, 193); */
+    /* border-bottom: 100px solid black; */
+    border-bottom:100px solid rgb(255, 230, 0);
+    border-left: 100px solid transparent;
+    position: absolute;
+    z-index: 0;
+  }
+  #youxiajiao:hover {
+    border-bottom:100px solid rgb(47, 47, 193);
+    border-left: 100px solid transparent;
   }
 
   
