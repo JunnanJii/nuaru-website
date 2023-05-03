@@ -53,11 +53,12 @@ a.ab:hover {
 p {
     position: sticky;
     left: 10px;
-    width: 450px;
+    width: 800px;
     border: 2px solid rgb(47, 47, 193);
     line-height: 1.5;
-    font-family: 汉仪旗黑Y1;
+    font-family: icomoon;
     font-weight:bold;
+
 
 }
 p:hover {

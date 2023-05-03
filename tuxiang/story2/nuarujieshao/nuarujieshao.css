@@ -1,0 +1,86 @@
+html {
+    width: 6090px;
+    height:auto ;
+    position: absolute ;
+}
+h5 {
+    position: sticky;
+    font-family: icomoon;
+    font-size: 12pt;
+    top:0px;
+    left: 550px;
+    /* color: black; */
+    border: 2px solid black;
+    width: 330px;
+    text-align: center;
+    color: rgb(47, 47, 193);
+}
+p {
+    position: sticky;
+    left: 10px;
+    width: 800px;
+    border: 2px solid rgb(47, 47, 193);
+    line-height: 1.5;
+    font-family: icomoon;
+    font-weight:bold;
+
+}
+p:hover {
+    background-color: rgb(255, 230, 0);
+}
+h6 {
+    font-family: icomoon;
+    font-size: 12pt;
+    top: -30px;
+    left: 10px;
+    /* color: black; */
+    color: rgb(47, 47, 193);
+    border: 2px solid black;
+    width: 100px;  
+    position: sticky;
+    text-align: center;
+}
+h5:hover {
+    background-color:rgb(255, 230, 0) ;
+}
+h6:hover {
+    background-color:rgb(255, 230, 0) ;
+}
+
+a {
+    color: inherit;
+}
+a.ab{
+    bottom: -640px;
+    left: 10px;
+    position: sticky;
+    color: rgb(47, 47, 193);
+    font-family: icomoon;
+    border: 2px solid rgb(47, 47, 193);
+    /* background-color:rgb(47, 47, 193) ; */
+    font-size: 12pt;
+}
+a.ab:hover {
+    background-color:rgb(255, 230, 0) ;
+}
+article.ab {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    width: 100%;
+}
+article.cb {
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    z-index: -2;
+    width: 100%;
+}
+img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    width: 100%;
+}
