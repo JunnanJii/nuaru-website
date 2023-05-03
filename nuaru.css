@@ -1,17 +1,44 @@
+html {
+    width: 2800px;
+    height:auto ;
+    position: absolute ;
+}
 h5 {
-    position: absolute;
+    position: sticky;
     font-family: icomoon;
     font-size: 12pt;
     top:0px;
     left: 10px;
+    color: black;
+    border: 2px solid black;
+    width: 330px;
+    text-align: center;
 }
 h6 {
-    position: absolute;
     font-family: icomoon;
     font-size: 12pt;
     top: 0px;
-    right: 10px;
+    left: 10px;
+    color: black;
+    border: 2px solid black;
+    width: 100px;  
+    position: sticky;
+    text-align: center;
 }
+/* h6 { */
+    position: sticky;
+    font-family: icomoon;
+    font-size: 12pt;
+    top: 0px;
+    right: 0px;
+    color: black;
+    border: 2px solid black;
+    width: 100px;
+/* } */
+a {
+    color: inherit;
+}
+
 img {
     position: absolute;
     top: 300px;
